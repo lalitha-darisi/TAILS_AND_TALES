@@ -1,0 +1,58 @@
+# requirements.txt — Combined dependency listing for this project
+# Note: This project uses Node.js for both backend and frontend. Use package.json files to install
+# packages via npm. This file lists all dependencies and devDependencies for convenience.
+
+# System / runtime
+node >= 16
+npm >= 8
+
+# Backend (backend/package.json)
+# Install with: cd backend && npm install
+bcryptjs@^2.4.3
+cors@^2.8.5
+dotenv@^16.0.0
+express@^4.18.2
+jsonwebtoken@^9.0.0
+mongoose@^7.0.0
+morgan@^1.10.0
+socket.io@^4.7.1
+stripe@^20.0.0
+
+# Backend devDependencies
+
+
+nodemon@^3.1.11
+
+# Frontend (frontend/package.json)
+# Install with: cd frontend && npm install
+@stripe/stripe-js@^8.5.3
+axios@^1.13.2
+lucide-react@^0.555.0
+react@^18.3.1
+react-dom@^18.3.1
+react-router-dom@^6.30.2
+socket.io-client@^4.8.1
+
+# Frontend devDependencies
+@vitejs/plugin-react@^4.7.0
+autoprefixer@^10.4.22
+postcss@^8.5.6
+tailwindcss@^3.4.18
+vite@^7.2.4
+
+# Usage
+# 1) Backend
+#    cd backend
+#    npm install
+#    npm run dev    # runs nodemon server.js
+#
+# 2) Frontend
+#    cd frontend
+#    npm install
+#    npm run dev    # runs vite dev server
+
+# Notes
+# - The authoritative dependency lists remain in `backend/package.json` and `frontend/package.json`.
+# - If you prefer a machine-readable lock file, use `package-lock.json` produced by `npm install`.
+# - If you intended a Python `requirements.txt` for a Python environment, let me know and I will
+#   produce a proper Python requirements list for any Python components.
